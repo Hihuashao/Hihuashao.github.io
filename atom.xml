@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hihuashao.github.io</id>
     <title>辞南的博客</title>
-    <updated>2020-06-12T15:31:43.075Z</updated>
+    <updated>2020-06-12T15:35:04.981Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hihuashao.github.io"/>
     <link rel="self" href="https://hihuashao.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://hihuashao.github.io/post/nan-wang-de-ye/">
         </link>
         <updated>2020-06-12T15:17:33.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://hihuashao.github.io/post-images/1591975866447.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p>想看更精美的图片点击即可哦<br>
+<img src="https://hihuashao.github.io/post-images/1591975866447.jpg" alt="" loading="lazy"><br>
 我们的服务“指”为你!!<br>
 <img src="https://hihuashao.github.io/post-images/1591975638134.jpg" alt="" loading="lazy"></p>
 ]]></content>
