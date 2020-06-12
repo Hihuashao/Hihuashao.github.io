@@ -2199,8 +2199,8 @@ body {
       color: #22b8cf;
       border-bottom-color: #22b8cf;
     }.markdownIt-TOC a:hover {
-      color: #fff;
-      border-bottom-color: #fff;
+      color: #ffec99;
+      border-bottom-color: #ffec99;
     }.active-current > a {
       color: #fc6423 !important;
       border-bottom-color: #fc6423 !important;
