@@ -56,9 +56,9 @@
                 </header>
                 <div class="neko">
                     <p>想看更精美的图片点击即可哦<br>
-<img src="https://hihuashao.github.io/post-images/1591975866447.jpg" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1591975866447.jpg" alt="" loading="lazy"><br>
 我们的服务“指”为你!!<br>
-<img src="https://hihuashao.github.io/post-images/1591975638134.jpg" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1591975638134.jpg" alt="" loading="lazy"></p>
 
                 </div>
             </article>
@@ -71,7 +71,7 @@
                 <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
                 
                 
-                <a href="https://hihuashao.github.io/post/mao-ren-mei-jia/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                <a href="http://localhost:4000/post/mao-ren-mei-jia/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
                     <div class="doc-footer-nav-text">
                         <i class="mdui-icon material-icons">arrow_forward</i>
                         <span class="doc-footer-nav-direction">下一篇文章</span>
@@ -83,6 +83,32 @@
         </div>
     </div>
     <br>
+    
+        
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+    var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+
+</script>
+
+        
+
+        
     
     <div class="comment"></div>
 </div>
